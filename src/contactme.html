@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/contactme.css">
+  </head>
+  <body>
+    <div class="container">
+    <header class="flex">
+        <h1>Contact me</h1>
+        <nav>
+            <ul class="flex">
+             <li><a href="index.html">My Resume</a></li>
+             <li>Contact Me</li>
+             <li><a href="coverletter.html">Cover Letter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div id="error"></div>
+          <form  id="form" action = "#" method="GET">
+            <fieldset>
+            <label >First name:</label>
+            <input id="name" type="text" name="fname">
+            </fieldset>
+            <br>
+            <fieldset>
+            <label>Last name:</label>
+            <input id="last" type="text" name="lname">
+            </fieldset>
+            <br>
+            <fieldset>
+            <label >Company name:</label>
+            <input id="company" type="text">
+            </fieldset>
+            <br>
+            <fieldset>
+            <label >Email:</label>
+            <input id="email" type="text">
+          </fieldset>
+            <br>
+            <fieldset>
+            <label >Phone number:</label>
+            <input id="number"  type="text">
+            </fieldset> 
+            <br>
+            <p>Please write me a message</p>
+            <textarea rows="20" cols="100"></textarea>
+            <button  id="submit" type="submit">Submit</button>
+            <button type = "reset" value = "Reset " onclick = "reset()">Clear</button>
+          
+          
+          </form>
+      
+     
+       
+             
+    </main>
+    <aside>
+      <img src="img/picture.jpg" alt="picture">
+    </aside>
+    <footer>Thanks for reading my resume</footer>
+	  <script src="js/contact.js" defer></script>
+    </div>
+  </body>
+</html>
